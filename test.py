@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 
 lena = cv.imread("02/lena.jpg", 0)
 lena_plate = cv.imread("02/face.jpg", 0)
-# cv.imshow('lena', lena)   
+# cv.imshow('lena', lena)
 # cv.imshow('face', lena_plate)
 
 
