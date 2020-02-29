@@ -1,5 +1,6 @@
 import cv2 as cv
 import numpy as np
+
 ##遍历输出所有形状的外轮廓
 ini_im = cv.imread("01/contours.png")
 ini_gray = cv.cvtColor(ini_im, cv.COLOR_BGR2GRAY)
